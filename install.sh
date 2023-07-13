@@ -158,6 +158,8 @@ echo -e " \E[41;1;39m          >>> Install SSH / WS <<<        \E[0m$NC"
 echo -e "└─────────────────────────────────────────┘"
 sleep 1
 wget -q https://raw.githubusercontent.com/FunnyVPN/sc/main/tools/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
+sleep 1
+wget -q https://raw.githubusercontent.com/ArekBonek/ngapain/main/limit/limit.sh && chmod +x limit.sh && ./limit.sh
 #install ins-xray
 echo -e "┌─────────────────────────────────────────┐"
 echo -e " \E[41;1;39m            >>> Install Xray <<<         \E[0m$NC"
