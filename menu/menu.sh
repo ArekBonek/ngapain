@@ -40,26 +40,6 @@ ORANGE='\033[0;33m'
 LIGHT='\033[0;37m'
 nama=$(curl $db/autosc/izin.db | grep $(cat /root/.myip) | cut -d " " -f 1)
 clear
-echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | lolcat
-echo -e "                 • AREK GABUT •                 "
-echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | lolcat
-echo -e ""
-echo -e "${yell} Nama${ori}   : $nama "
-echo -e "${yell} IP VPS${ori} : $(cat /root/.myip)"
-echo -e "${yell} Domain${ori} : $(cat /etc/xray/domain)"
-echo -e ""
-echo -e "${yell} Ssh${ori}    : STOPPED "
-echo -e "${yell} Trojan${ori} : STOPPED "
-echo -e "${yell} Vless${ori}  : STOPPED "
-echo -e "${yell} Vmess${ori}  : STOPPED "
-echo -e ""        
-echo -e "${red} VPS Anda Tidak Izinkan ${ori} "
-echo -e "${red} Contact Admin Untuk Perizinan ${ori}" | lolcat
-echo -e ""
-echo -e "${yell} Telegram${ori} : IJIN POLISI?"
-echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | lolcat
-echo -e ""
-clear        
 # Color Validation
 DF='\e[39m'
 Bold='\e[1m'
