@@ -119,6 +119,9 @@ mkdir -p /etc/nginx
 mkdir -p /usr/bin/xray
 mkdir -p /etc/xray
 mkdir -p /usr/local/etc/xray
+mkdir -p /etc/limit/vmess
+mkdir -p /etc/limit/trojan
+mkdir -p /etc/limit/vless
 
 # // Input Domain TO VPS
 echo "$domain" > /etc/xray/domain
